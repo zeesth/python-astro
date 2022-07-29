@@ -1,3 +1,5 @@
+import numpy as np
+
 def angular_dist(rasc1, dec1, rasc2, dec2):
     r1 = np.radians(rasc1)
     d1 = np.radians(dec1)
